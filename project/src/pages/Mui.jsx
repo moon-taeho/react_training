@@ -19,8 +19,8 @@ const Mui = () => {
 	const [array, setArray] = useState([]);
 
 	const PersonArray = () => {
-		const return_value = array.map((item) => {
-			return <StyledPersonIcon />;
+		const return_value = array.map((item, index) => {
+			return <StyledPersonIcon key={index} />;
 		});
 		return return_value;
 	};

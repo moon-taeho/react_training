@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import ImportTest from './pages/ImportTest';
 import Mui from './pages/Mui';
 import IPhone from './pages/IPhone';
+import BoxTest from './pages/BoxTest';
 
 const Router = () => {
 	return (
@@ -18,6 +19,7 @@ const Router = () => {
 					<Route path="/iphone" element={<IPhone />} />
 					<Route path="/import" element={<ImportTest />} />
 					<Route path="/mui" element={<Mui />} />
+					<Route path="/boxtest" element={<BoxTest />} />
 				</Routes>
 			</ThemeProvider>
 		</BrowserRouter>
