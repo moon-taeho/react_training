@@ -7,6 +7,7 @@ import ImportTest from './pages/ImportTest';
 import Mui from './pages/Mui';
 import IPhone from './pages/IPhone';
 import BoxTest from './pages/BoxTest';
+import Json from './pages/Json';
 
 const Router = () => {
 	return (
@@ -20,6 +21,7 @@ const Router = () => {
 					<Route path="/import" element={<ImportTest />} />
 					<Route path="/mui" element={<Mui />} />
 					<Route path="/boxtest" element={<BoxTest />} />
+					<Route path="/json" element={<Json />} />
 				</Routes>
 			</ThemeProvider>
 		</BrowserRouter>
